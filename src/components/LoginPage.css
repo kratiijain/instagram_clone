@@ -1,29 +1,95 @@
-.loginpage_main{
-    display:flex;
-    margin-top: 25px;
+.body {
+  background-color: #fafafa;
 }
-.loginpage_logo{
-    width:175px;
-    margin-top: 25px;
+.loginpage_main {
+  display: flex;
+  margin-top: 25px;
 }
-.loginpage_rightcomponent{
-    height:380px;
-    width:350px;
-    border:1px solid #DBDBDB;
-    margin:25px;
-    text-align: center;
-
+.loginpage_logo {
+  width: 175px;
+  margin-top: 25px;
 }
-.loginPage_signin{
-    margin-top: 25px;
+.loginpage_rightcomponent {
+  height: 380px;
+  width: 350px;
+  border: 1px solid #dbdbdb;
+  margin: 25px;
+  text-align: center;
+  background-color: white;
 }
-.loginpage_text{
-    width:258px;
-    height:36px;
-    margin:5px;
-    border:1px solid #DBDBDB
+.loginPage_signin {
+  margin-top: 25px;
 }
-.login_button{
-    width: 270px;
-
+.loginpage_text {
+  width: 258px;
+  height: 36px;
+  margin: 5px;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  padding-left: 2px;
+  border-radius: 5px;
+}
+.login_button {
+  width: 270px;
+  height: 36px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 5px;
+  border: 1px solid #0395f6;
+  background-color: #0395f6;
+  color: white;
+}
+.login_ordiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.login_divider {
+  width: 80px;
+  height: 0px;
+  margin-top: 10px;
+  border: 1px solid #dbdbdb;
+}
+.login_or {
+  margin: 0px 10px;
+  font-weight: bold;
+  color: #8e8e8e;
+}
+.login_fb {
+  color: #395185;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.login_forgot {
+  color: rgba(var(--fe0, 0, 55, 107), 1);
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 12px;
+  text-align: center;
+}
+.loginpage_signupoption {
+  margin: 25px;
+  height: 56px;
+  width: 350px;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+}
+.loginPage_signin {
+  margin-top: 20px;
+}
+.loginPage_signup {
+  margin-top: 40px;
+}
+.loginPage_downloadSection {
+  height: 105px;
+  width: 350px;
+  text-align: center;
+  margin-top: 30px;
+}
+.loginPage_option {
+  margin-top: 20px;
+}
+.loginPage_dwing {
+  margin: 5px;
 }
